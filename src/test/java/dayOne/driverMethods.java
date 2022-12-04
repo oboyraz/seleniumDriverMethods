@@ -17,7 +17,7 @@ public class driverMethods {
         System.out.println(driver.getPageSource());
         System.out.println("=".repeat(100));
         System.out.println(driver.getWindowHandle()); // page unique hash code
-        System.out.println("*".repeat(150));
+        System.out.println("*".repeat(100));
 
     }
 }
