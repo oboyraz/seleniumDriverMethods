@@ -22,7 +22,7 @@ public class C01_testNotation {
         driver.get("https:www.amazon.com");
 
         WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
-        searchBox.sendKeys("Nutella");
+        searchBox.sendKeys("iPhone14");
         searchBox.submit();
 
         WebElement resultTextElement = driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
