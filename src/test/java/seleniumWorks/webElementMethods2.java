@@ -40,6 +40,7 @@ public class webElementMethods2 {
 
         if (expectedResult.equals(actualResult)){
             System.out.println("passed");
+            System.out.println("");
         }
         else{
             System.out.println("failed");
@@ -48,4 +49,5 @@ public class webElementMethods2 {
         driver.close();
 
     }
+
 }

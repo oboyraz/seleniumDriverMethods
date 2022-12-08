@@ -39,7 +39,7 @@ public class assertionMethodTest {
 
 
     WebElement textResultElement = driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
-    String expectedResult = "Kutella";
+    String expectedResult = "Nutella";
     String actualResult = textResultElement.getText();
 
     Assert.assertTrue(actualResult.contains(expectedResult));
